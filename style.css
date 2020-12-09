@@ -3,12 +3,18 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
     
-    color: #303030;
+    background-color: black;
+  
+    
+    color:darkred;
     font: Verdana, Arial, Sans-Serif;
 }
-
+body{
+  background-image: url("afbeeldingen/Hd Wallpaper Black And White Mobile.jpeg");
+  background-repeat: no-repeat;
+  size: 2500px ;
+}
 
 main {
     margin: 0 auto;
@@ -23,30 +29,27 @@ article {
 
 
 header {
-    color: skyblue;
+    color:darkred;
     text-align: center;
+    stick
 }
 
 
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
 /* specifieke stijlen */
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
 
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color:crimson;
     text-decoration: none;
 }
 
@@ -60,8 +63,11 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color:lightgray
+    ;
     overflow: hidden;
+    border-radius:  10px; 
+border:  2px  solid  darkred;
 }
 
 nav ul li {
@@ -70,20 +76,30 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color:darkgray;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: darkgray;
 }
 
-
-
-
+img.zweefLinks_1 {
+    float: right;
+    margin-right: 15px;
+    margin-left:15px;
+}
+img.zweefLinks_2 {
+  float: left;
+  margin: 15px;
+  width: 300px;
+}
+.evelementen{
+  text-align: center
+}
